@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Triz Cuts Barber Shop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/"><h1>TRIZ<span>CUTS</span></h1></a>
+
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/" >Home</a></li>
+                    <li><a href="/html/services.html">Services</a></li>
+                    <li><a href="/html/gallery.html">Gallery</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>See our work and get inspired for your next visit</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="haircuts">Haircuts</button>
+                <button class="filter-btn" data-filter="beards">Beards</button>
+                <button class="filter-btn" data-filter="shop">Our Shop</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item haircuts">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Classic Fade Haircut">
+                    <div class="gallery-overlay">
+                        <h3>Classic Fade</h3>
+                        <p>Precision cut with perfect fade</p>
+                    </div>
+                </div>
+                <div class="gallery-item beards">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Beard Grooming">
+                    <div class="gallery-overlay">
+                        <h3>Full Beard Styling</h3>
+                        <p>Expert shaping and maintenance</p>
+                    </div>
+                </div>
+                <div class="gallery-item shop">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Barber Shop Interior">
+                    <div class="gallery-overlay">
+                        <h3>Our Shop</h3>
+                        <p>Modern yet classic atmosphere</p>
+                    </div>
+                </div>
+                <div class="gallery-item haircuts">
+                    <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Modern Pompadour">
+                    <div class="gallery-overlay">
+                        <h3>Modern Pompadour</h3>
+                        <p>Stylish and sophisticated</p>
+                    </div>
+                </div>
+                <div class="gallery-item beards">
+                    <img src="https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mustache Styling">
+                    <div class="gallery-overlay">
+                        <h3>Mustache Styling</h3>
+                        <p>Precision trimming and shaping</p>
+                    </div>
+                </div>
+                <div class="gallery-item shop">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Barber Tools">
+                    <div class="gallery-overlay">
+                        <h3>Premium Tools</h3>
+                        <p>We use only the best equipment</p>
+                    </div>
+                </div>
+                <div class="gallery-item haircuts">
+                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Textured Crop">
+                    <div class="gallery-overlay">
+                        <h3>Textured Crop</h3>
+                        <p>Modern and low-maintenance</p>
+                    </div>
+                </div>
+                <div class="gallery-item beards">
+                    <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Beard Trim">
+                    <div class="gallery-overlay">
+                        <h3>Short Beard Trim</h3>
+                        <p>Clean and professional look</p>
+                    </div>
+                </div>
+                <div class="gallery-item shop">
+                    <img src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Barber Chair">
+                    <div class="gallery-overlay">
+                        <h3>Classic Barber Chairs</h3>
+                        <p>Comfort meets tradition</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Like What You See?</h2>
+            <p>Book your appointment today and let us create your perfect look.</p>
+            <a href="contact.html" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="/"><h1>TRIZ<span>CUTS</span></h1></a>
+                    <p>Premium barber services for the modern gentleman.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 9am - 8pm</p>
+                    <p>Saturday: 10am - 6pm</p>
+                    <p>Sunday: 11am - 5pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, State</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@trizcuts.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Triz Cuts Barber Shop. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
