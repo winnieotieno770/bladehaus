@@ -18,9 +18,9 @@ if (hamburger) {
   links.forEach((link) => {
     
     if (link.pathname === currentUrl) {
-      link.classList.add("active");  // Add 'active' class if it's the current page
+      link.classList.add("active"); 
     } else {
-      link.classList.remove("active");  // Remove 'active' class from other links
+      link.classList.remove("active");  
     }
 
     // Add event listener to each link to remove active class and close the menu
